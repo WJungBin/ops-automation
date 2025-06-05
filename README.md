@@ -39,6 +39,7 @@
 
 - 🔗 **태크 블로그**: [JBW-Tech Blog](https://blog.jbw-tech.com/)
 - 💼 **LinkedIn**: [My LinkedIn](http://www.linkedin.com/in/%EC%A0%95%EB%B9%88-%EC%9B%90-6aa0192a6?ref=blog.jbw-tech.com)
+- **E-Mail** : dnjswjdqls251@gmail.com  
 
 더 많은 기술적인 내용과 운영 자동화 관련 인사이트는 블로그에서 확인해보실 수 있습니다.  
 궁금한 점이나 협업 제안이 있으시면 언제든지 연락 주세요!
