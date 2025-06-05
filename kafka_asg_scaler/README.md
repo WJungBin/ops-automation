@@ -111,3 +111,8 @@ Lambda 대상 지정 후, Lambda 함수가 실행되며 Kafka Lag 상태를 점�
 - ASG 이름, Webhook URL도 실제 사용 환경에 맞게 변경하세요.  
 - boto3 클라이언트는 기본 AWS Lambda 역할 권한으로 동작합니다. 필요한 IAM 권한 부여를 반드시 확인하세요.
 
+---
+
+## 📄 라이선스
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

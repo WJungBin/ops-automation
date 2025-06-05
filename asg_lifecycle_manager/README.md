@@ -197,3 +197,9 @@ AMI 생성을 시작하려면 **API Gateway** 엔드포인트에 **POST 요청**
 
 - `requests`는 Lambda 패키징 시 함께 번들링 필요
 - Step Functions 실행 시 CloudWatch 로그 권장
+
+---
+
+## 📄 라이선스
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

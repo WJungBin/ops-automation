@@ -31,3 +31,7 @@
 - 이슈 등록 및 토론을 통해 함께 발전시키는 저장소
 
 ---
+
+## 📄 라이선스
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
