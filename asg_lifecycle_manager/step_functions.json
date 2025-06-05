@@ -1,0 +1,45 @@
+{
+    "StartAt": "MapAMIList",
+    "States": {
+      "MapAMIList": {
+        "Type": "Map",
+        "ItemsPath": "$.ami_ids",
+        "Parameters": {
+          "ami_id.$": "$$.Map.Item.Value"
+        },
+        "Iterator": {
+          "StartAt": "Wait60Seconds",
+          "States": {
+            "Wait60Seconds": {
+              "Type": "Wait",
+              "Seconds": 60,
+              "Next": "CheckAmiState"
+            },
+            "CheckAmiState": {
+              "Type": "Task",
+              "Resource": "ami_notifier ARN",
+              "Next": "AMIReady?"
+            },
+            "AMIReady?": {
+              "Type": "Choice",
+              "Choices": [
+                {
+                  "Variable": "$.ami_state",
+                  "StringEquals": "available",
+                  "Next": "Success"
+                }
+              ],
+              "Default": "Wait60Seconds"
+            },
+            "Success": {
+              "Type": "Succeed"
+            }
+          }
+        },
+        "Next": "AllDone"
+      },
+      "AllDone": {
+        "Type": "Succeed"
+      }
+    }
+  }

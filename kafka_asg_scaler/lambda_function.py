@@ -201,9 +201,3 @@ def lambda_handler(event, context):
         logger.debug("Kafka LAG Stable.")
     else:
         logger.error("Lambda Error.")
-
-
-"""
-추가로 할일 
-클래스 연결해서 API Gateway 로 POST 하는거 완성
-"""
