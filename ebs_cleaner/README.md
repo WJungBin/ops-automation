@@ -20,7 +20,7 @@
 ## 디렉터리 구조
 
 ```
-ebs-cleaner/
+ebs_cleaner/
 ├── lambda_function.py  # 메인 Lambda 코드
 ├── README.md           # 설명 문서
 ```
