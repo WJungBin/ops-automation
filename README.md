@@ -44,8 +44,3 @@
 더 많은 기술적인 내용과 운영 자동화 관련 인사이트는 블로그에서 확인해보실 수 있습니다.  
 궁금한 점이나 협업 제안이 있으시면 언제든지 연락 주세요!
 
----
-
-## 📄 라이선스
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
